@@ -474,7 +474,7 @@ nav h3 span{
 @media (max-width: 1000px) {
     .mywork {
         width: 100vw;
-        height: 138vh;
+        height: 150vh;
         /* position: relative; */
         background-color: #54505C;
     }
@@ -484,7 +484,7 @@ nav h3 span{
         text-align: left;
     }
     .mywork h2{
-        padding-top: 20px;
+        padding-top: 70px;
         font-size: 2.5vh;
     }
     .mainsqr{
@@ -539,4 +539,38 @@ nav h3 span{
         padding: 0 ;
         margin-top: 20px;
     }
+}
+
+/* work */
+
+.work {
+    width: 100vw;
+    height: 100vh;
+    background-color: #D6D6D6;
+} 
+
+.work h2{
+    font-size: 30px;
+    font-family: Josefin Sans;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.img1div{
+    height: 500px;
+    width: 600px;
+    background-color: #000;
+    display: inline-flex; 
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.img2div{
+    height: 500px;
+    width: 600px;
+    background-color: #000;
+    display: inline-flex; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
 }
